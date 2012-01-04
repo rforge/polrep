@@ -1,0 +1,9 @@
+Package: polrep
+Type: Package
+Title: Calculate political representation scores
+Version: 0.1
+Date: 2012-01-04
+Author: Didier Ruedin
+Maintainer: Didier Ruedin <didier.ruedin@woflson.oxon.org>
+Description: Package to calculate political representation scores. Currently only supports individual representation scores (IRS)
+License: GPL-3
