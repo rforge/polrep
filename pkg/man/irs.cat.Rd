@@ -1,11 +1,9 @@
 \name{irs.cat}
 \alias{irs.cat}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{
-%%  ~~function to do ... ~~
+\title{Function to calculate individual representation scores for categorical data
 }
-\description{
-%%  ~~ A concise (1-5 lines) description of what the function does. ~~
+\description{This function calculates individual representation scores based on frequency vectors. If the data are in this form, this function is much faster than the standard IRS function.
 }
 \usage{
 irs.cat(G, H, perspective = "individual")
