@@ -2,9 +2,7 @@
 \alias{polrep-package}
 \alias{polrep}
 \docType{package}
-\title{
-Calculate political representation scores.
-}
+\title{Calculate political representation scores.}
 \description{
 More about what it does (maybe more than one line)
 ~~ A concise (1-5 lines) description of the package ~~
@@ -25,14 +23,10 @@ Didier Ruedin
 
 Maintainer: Didier Ruedin <didier.ruedin@wolfson.oxon.org>
 }
-\references{
-~~ Literature or other references for background information ~~
-}
+\references{}
 \keyword{ package }
 \seealso{
 ~~ Optional links to other man pages, e.g. ~~
 ~~ \code{\link[<pkg>:<pkg>-package]{<pkg>}} ~~
 }
-\examples{
-~~ simple examples of the most important functions ~~
-}
+\examples{}
