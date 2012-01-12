@@ -1,91 +1,29 @@
 \name{irs.cat}
 \alias{irs.cat}
-\title{Calculate individual representation scores for categorical data }
+\title{Calculate individual representation scores for categorical data.}
 \description{This function calculates individual representation scores based on frequency vectors. If the data are in this form, this function is much faster than the standard IRS function.}
 \usage{
 irs.cat(G, H, perspective = "individual")
 }
-%- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{G}{
-%%     ~~Describe \code{G} here~~
+  \item{G}{frequency vector for the population}
+  \item{H}{frequency vector for the representatives}
+  \item{perspective}{individual perspective (default) or population perspective}
 }
-  \item{H}{
-%%     ~~Describe \code{H} here~~
-}
-  \item{perspective}{
-%%     ~~Describe \code{perspective} here~~
-}
-}
-\details{
-%%  ~~ If necessary, more details than the description above ~~
-}
-\value{
-%%  ~Describe the value returned
-%%  If it is a LIST, use
-%%  \item{comp1 }{Description of 'comp1'}
-%%  \item{comp2 }{Description of 'comp2'}
-%% ...
-}
-\references{
-%% ~put references to the literature/web site here ~
-}
-\author{
-%%  ~~who you are~~
-}
-\note{
-%%  ~~further notes~~
-}
-
-%% ~Make other sections like Warning with \section{Warning }{....} ~
-
-\seealso{
-%% ~~objects to See Also as \code{\link{help}}, ~~~
-}
+\details{This function calculates individual representation scores. You will need two frequency vectors, one for the population, and one for the representatives. The two frequency vectors need to be of the same length. It is possible to choose the perspective of the population, which leads to slightly different individual representation scores for small N.}
+\value{A vector of the same length as the frequency vector for the population. For each position, the individual representation scores are given.}
+\author{Didier Ruedin}
+\seealso{\code{\link{irs}}}
 \examples{
-##---- Should be DIRECTLY executable !! ----
-##-- ==>  Define data, use random,
-##--	or do  help(data=index)  for the standard data sets.
-
-## The function is currently defined as
-function (G, H, perspective = "individual") 
-{
-    if ((is.vector(G) & is.vector(H)) == FALSE) 
-        stop("Error: expected two vectors (one for population, one for representatives).")
-    if (min(G) < 0) 
-        stop("Error: negative values found in frequency vector for the population.")
-    if (min(H) < 0) 
-        stop("Error: negative values found in frequency vector for the representatives.")
-    t <- length(G)
-    if ((t == length(H)) == FALSE) 
-        stop("Error: Vectors are not of same length.")
-    n <- sum(G)
-    m <- sum(H)
-    if (perspective == "individual") 
-        (Divide <- n - 1)
-    else (Divide <- n)
-    N <- NULL
-    M <- NULL
-    V <- NULL
-    for (i in 1:t) {
-        d <- 0
-        for (j in 1:t) {
-            d <- d + G[j] * abs(i - j)
-        }
-        N[i] <- d/Divide
-    }
-    for (i in 1:t) {
-        d <- 0
-        for (j in 1:t) {
-            d <- d + H[j] * abs(i - j)
-        }
-        M[i] <- d/m
-    }
-    V <- N - M
-    return(V)
-  }
+# Sample data
+G <- c(1,5,10,15,3)
+H <- c(0,3,0,5,1)
+# Calculate individual representation scores
+irs.cat(G,H)
+# The representation scores for each position are:
+# 5.65  2.05 -1.70 -2.95  3.75
+# We have small N, so let's look at the population perspective
+irs.cat(G, H, perspective = "population")
+# The representation scores for each position are now:
+# 4.2  1.0 -3.0 -5.0  2.6
 }
-% Add one or more standard keywords, see file 'KEYWORDS' in the
-% R documentation directory.
-\keyword{ ~kwd1 }
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
