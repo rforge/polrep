@@ -5,6 +5,9 @@ function(D, k=9999919) {
    #            k = number of categories (necessary if there are categories with 0)
    # NOTE: k = 9999919 is hard coded using a unrealistic value
    # e.g. if position 2 is not present in the population, no 0 will be added
+   if(is.vector(D) == FALSE) {
+     warning("Warning: Expected a vector, or vector is empty.")
+     return(NA)}
    T <- as.data.frame(table(D))  # table(D) to count frequencies
    F <- T[,2]                    # [,2] chooses the values
    if (k == 9999919) k <- length(F) # if k is not provided, assume no categories with frequency 0
