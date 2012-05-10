@@ -1,5 +1,5 @@
 collapse <-
-function(D, k=9999919) {
+function(D, pos=FALSE) {
   # Alias for FrequencyVector function
-  frequency.vector(D, k)
+  frequencyvector(D, pos)
   }
