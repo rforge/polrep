@@ -11,8 +11,6 @@
 
 The argument \code{pos} is required if certain positions do not occur in the population. For example, if we have positions on a 7-point scale, and position 3 never occurs in the population, the argument \code{pos} must be specified. In this case, our argument may be \code{pos=1:7}. We can also use categories more generally, as in \code{c(-3,-1,0,.5,1,2,5)}.  Specifying the positions of categories when all positions actually occur in the population has no side-effects.
 
-Note that this function assumes that the categories are sorted in increasing order, such as 0, 1, 2 or -1, 0, 1.
-
 You can use the function \code{\link{expand}} to convert frequency vectors into their long form (population vector).}
 \value{A frequency vector.}
 \author{Didier Ruedin}
