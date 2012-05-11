@@ -13,7 +13,6 @@ Didier Ruedin
 
 Maintainer: Didier Ruedin <didier.ruedin@wolfson.oxon.org>
 }
-\references{}
 \keyword{ package }
 \seealso{\code{\link{irs}}, \code{\link{irs.cat}}, \code{\link{Q.score}}, \code{\link{R.score}}}
-\examples{}
+
