@@ -10,4 +10,4 @@
 \details{The representation score is calculated as: sqrt(sum((Z-R)^2)/2).}
 \value{Representation score}
 \author{Didier Ruedin}
-\references{Gallagher, M. (1991) "Proportionality, disproportionality and electoral systems." Electoral Studies 10(1):33-51.}
+\references{Gallagher, M. (1991) Proportionality, disproportionality and electoral systems. Electoral Studies 10(1):33-51.}
