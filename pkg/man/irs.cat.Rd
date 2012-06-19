@@ -13,6 +13,7 @@ irs.cat(G, H, perspective = "individual")
 \details{This function calculates individual representation scores. You will need two frequency vectors, one for the population, and one for the representatives. The two frequency vectors need to be of the same length. It is possible to choose the perspective of the population, which leads to slightly different individual representation scores for small N.}
 \value{A vector of the same length as the frequency vector for the population. For each position, the individual representation scores are given.}
 \author{Didier Ruedin}
+\references{Ruedin, D. (2012) Individual representation: A different approach to political representation. Representation 48(1): 115-29.}
 \seealso{\code{\link{irs}}}
 \examples{
 # Sample data

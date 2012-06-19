@@ -11,6 +11,7 @@
 \details{If you have categorical data (i.e. a limited number of positions), the function \code{\link{irs.cat}} is much faster.}
 \value{A vector giving the individual representation score for each individual of the population.}
 \author{Didier Ruedin}
+\references{Ruedin, D. (2012) Individual representation: A different approach to political representation. Representation 48(1): 115-29.}
 \seealso{\code{\link{irs.cat}}}
 \examples{
 # Sample data:
