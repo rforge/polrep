@@ -1,0 +1,61 @@
+<html>
+<head>
+<title>Political Representation in R</title>
+<link rel="stylesheet" href="basic.css" type="text/css" /></head>
+<body>
+<h1>Political Representation in R</h1>
+
+<p>The <i>R</i> package <tt>polrep</tt> implements many different measures of political representation, covering both descriptive representation (unordered groups) and substantive representation (issue positions).</p>
+
+<p>The package is currently in <i>early development</i>, but the functions included should be fairly useable.</p>
+
+<h2>Installation and Use</h2>
+<h3>Installation</h3>
+<p>To install the R package <tt>polrep</tt>, use the following command within <i>R</i>:</p>
+<p><tt>install.packages("polrep", repos="http://R-Forge.R-project.org")</tt></p>
+
+<h3>General Note on Using the Functions</h3>
+<p>Almost all measures in this package require two vectors as input, one for the population (citizens) and one for the representatives (legislators). These vectors should be in the form of frequency vectors, that is giving the number of observations at each position. In the following I refer to these as Z (for the citizens or population) and R (for the representatives or legislators).</p>
+
+<p>The helper functions <i>collapse</i> and <i>expand</i> can be used to create frequency vectors.</p>
+
+<p>At this stage, please refer to the help files in R on further details on the different measures of political representation.</p>
+
+<h3>Individual Representation Scores</h3>
+<p>Calculates individual representation scores. Use: irs(Z,R) for continuous data and irs.cat(Z,R) for categorical data. Using collapse() and then irs.cat() is significantly faster than running irs() if you have categorical data.</p>
+<p>For a full description of the concept of individual representation scores, refer to <a href="http://www.tandfonline.com/doi/abs/10.1080/00344893.2012.653248">Ruedin, D. Individual representation: A different approach to political representation. <i>Representation</i> 48, no. 1 (2012): 115-29.</a></p>
+
+<h3>Gallagher index</h3>
+<p>The Gallagher index of least squares is available as Gallagher(Z,R). Use Gallagher.1(Z,R) to have the values inverted so that higher values stand for greater proportionality.</p>
+
+<h3>Farina index</h3>
+<p>Calculates the Farina index or cosine proportionality measure. Use: Farina(Z,R).</p>
+
+<h3>Rose index</h3>
+<p>The Rose index is 1-LHI. Higher values stand for greater proportionality. Use: Rose(Z,R)</p>
+
+<h3>Rae index</h3>
+<p>Use: Rae(Z,R); or Rae.1(Z,R) to have the values inverted to give higher values for greater proportionality.</p>
+
+<h3>Sainte-Lagu&euml;</h3>
+<p>Use: st.lague(Z,R)</p>
+<p>The inverted Sainte-Lagu&euml; is also available: st.lague.inverted(Z,R)</p>
+
+<h3>Effective Number of Groups</h3>
+<p>Uses the Laakso and Taagepera approach to the effective number of parties. Use: neff(x).</p>
+<p>The alternative (rarely used) measure, based on the product is available as neff.1(x).</p>
+
+<h3>Heterogeneity</h3>
+<p>Use: H(x)</p>
+
+<h3>Others</h3>
+<p>There are other measures included, many of which more conceptual rather than in actual use. At this stage, refer to the built-in documentation for further information.</p>
+
+<h2>Development</h2>
+<p>You can find the project summary page on R-Forge: <a href="https://r-forge.r-project.org/projects/polrep/">r-forge.r-project.org/projects/polrep/</a>.</p>
+
+<h2>Licence</h2>
+<p>The R package <tt>polrep</tt> is open source distributed under the GNU General Public License (GPL).</p>
+
+<p id="footer"><small>Last update 18 July 2012 | Didier Ruedin</small></p>
+</body></html>
