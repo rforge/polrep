@@ -3,7 +3,7 @@
 \title{Calculates heterogeneity}
 \description{This function calculates heterogeneity from a population vector.}
 \usage{H(Z)}
-\arguments{  \item{Z}{Population vector}}
+\arguments{ \item{Z}{Population vector}}
 \details{This function implements Fearon's (2003) measure of heterogeneity. Specify a frequency vector.}
 \value{Level of heterogeneity}
 \author{Didier Ruedin}

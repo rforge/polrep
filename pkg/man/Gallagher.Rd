@@ -11,3 +11,4 @@
 \value{Representation score}
 \author{Didier Ruedin}
 \references{Gallagher, M. (1991) Proportionality, disproportionality and electoral systems. Electoral Studies 10(1):33-51.}
+\seealso{\code{\link{Gallagher.1}}}

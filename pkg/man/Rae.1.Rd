@@ -10,3 +10,4 @@
 \details{The representation score is calculated as: 1 minus (the sum of the absolute differences |Z-R| divided by the number of categories).}
 \value{Representation score}
 \author{Didier Ruedin}
+\seealso{\code{\link{Rae}}}

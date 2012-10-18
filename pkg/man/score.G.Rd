@@ -1,7 +1,7 @@
 \name{score.G}
 \alias{score.G}
-\title{Representation score "G"}
-\description{Calculates the (potential) representation score "G".}
+\title{Representation score G}
+\description{Calculates the (potential) representation score G.}
 \usage{score.G(Z,R)}
 \arguments{
   \item{Z}{Population vector}

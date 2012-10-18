@@ -1,7 +1,7 @@
 \name{score.M}
 \alias{score.M}
-\title{Representation score "M"}
-\description{Calculates the (potential) representation score "M".}
+\title{Representation score M}
+\description{Calculates the (potential) representation score M.}
 \usage{score.M(Z,R)}
 \arguments{
   \item{Z}{Population vector}

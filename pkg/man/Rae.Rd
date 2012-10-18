@@ -11,3 +11,4 @@
 \value{Representation score}
 \author{Didier Ruedin}
 \references{Rae, D. (1967) The Political Consequences of Electoral Laws. London: Yale University Press.}
+\seealso{\code{\link{Rae.1}}}

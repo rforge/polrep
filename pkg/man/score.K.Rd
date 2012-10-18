@@ -1,7 +1,7 @@
 \name{score.K}
 \alias{score.K}
-\title{Representation score "K"}
-\description{Calculates the (potential) representation score "K".}
+\title{Representation score K}
+\description{Calculates the (potential) representation score K.}
 \usage{score.K(Z,R)}
 \arguments{
   \item{Z}{Population vector}

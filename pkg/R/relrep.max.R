@@ -1,4 +1,4 @@
-R.score.max <-
+relrep.max <-
 function(Z,R) {
   # z <- length(Z)
   # r <- length(R)

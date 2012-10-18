@@ -1,4 +1,4 @@
-relrep <- R.score <-
+relrep <-
 function(Z, R, k=1) {
   # k as the position of the group under study (e.g. majority group)
   # no input validation, so that we can use ad-hoc combinations like k=1:3

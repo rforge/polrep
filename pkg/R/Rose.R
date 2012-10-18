@@ -1,3 +1,3 @@
 Rose <- function(Z,R) {
-Q.score(Z,R)
-}
+  1 - sumZR(Z,R)/2
+  }

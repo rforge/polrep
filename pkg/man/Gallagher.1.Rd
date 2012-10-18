@@ -10,3 +10,4 @@
 \details{The representation score is calculated as: 1 - (sqrt(sum((Z-R)^2)/2)).}
 \value{Representation score}
 \author{Didier Ruedin}
+\seealso{\code{\link{Gallagher}}}
