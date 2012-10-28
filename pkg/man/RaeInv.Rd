@@ -1,8 +1,8 @@
-\name{Rae.1}
-\alias{Rae.1}
+\name{RaeInv}
+\alias{RaeInv}
 \title{1 minus Rae index}
 \description{Calculates 1 minus the Rae index.}
-\usage{Rae.1(Z,R)}
+\usage{RaeInv(Z,R)}
 \arguments{
   \item{Z}{Population vector}
   \item{R}{Vector for the representatives}

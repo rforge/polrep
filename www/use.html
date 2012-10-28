@@ -16,7 +16,7 @@ The helper functions <i>collapse</i> and <i>expand</i> can be used to create fre
 <p>Calculates individual representation scores. Use: irs(Z,R) for continuous data and irs.cat(Z,R) for categorical data. Using collapse() and then irs.cat() is significantly faster than running irs() if you have categorical data.</p>
 
 <h2 class="top">Gallagher index</h2>
-<p>The Gallagher index of least squares is available as Gallagher(Z,R). Use Gallagher.1(Z,R) to have the values inverted so that higher values stand for greater proportionality.</p>
+<p>The Gallagher index of least squares is available as Gallagher(Z,R). Use GallagherInv(Z,R) to have the values inverted so that higher values stand for greater proportionality.</p>
 
 <h2 class="top">Farina index</h2>
 <p>Calculates the Farina index or cosine proportionality measure. Use: Farina(Z,R).</p>
@@ -25,10 +25,10 @@ The helper functions <i>collapse</i> and <i>expand</i> can be used to create fre
 <p>The Rose index is 1-LHI. Higher values stand for greater proportionality. Use: Rose(Z,R)</p>
 
 <h2 class="top">Rae index</h2>
-<p>Use: Rae(Z,R); or Rae.1(Z,R) to have the values inverted to give higher values for greater proportionality.</p>
+<p>Use: Rae(Z,R); or RaeInv(Z,R) to have the values inverted to give higher values for greater proportionality.</p>
 
 <h2 class="top">Sainte-Lagu&euml;</h2>
-<p>Use: st.lague(Z,R)<br><br>The inverted Sainte-Lagu&euml; is also available: st.lague.inverted(Z,R)</p>
+<p>Use: st.lague(Z,R)<br><br>The inverted Sainte-Lagu&euml; is also available: st.lagueInv(Z,R)</p>
 
 <h2 class="top">Effective Number of Groups</h2>
 <p>Uses the Laakso and Taagepera approach to the effective number of parties. Use: neff(x).<br><br>
@@ -38,15 +38,15 @@ The alternative (rarely used) measure, based on the product is available as neff
 <p>Use: H(x)</p>
 
 <h2 class="top">Others</h2>
-<p>There are other measures included, many of which more conceptual rather than in actual use. At this stage of early development, refer to the built-in documentation for further information.<br><br>
-<small>Last update 18 October 2012</small></p>
+<p>There are other measures included, many of which more conceptual rather than in actual use. At this stage of early development, refer to the built-in documentation for further information. More measures (=functions) are still being added.<br><br>
+<small>Last update 28 October 2012</small></p>
 </div>
 <div id="Menu">
 <a href="index.html" title="Home">Home</a><br>
 <a href="irs.html" title="IRS">IRS</a><br>
 <a href="installation.html" title="Installation">Installation</a><br>
 <a href="use.html" title="Use">Use</a><br>
-<a href="development.html" title="Development">Development</a><br><br>
+<a href="https://r-forge.r-project.org/projects/polrep/" title="Development">Development</a><br><br>
 <a href="http://r-forge.r-project.org"><img src="logo.png" width="75px" border="0" alt="R-Forge Logo" /></a>
 </div>
 </body></html>

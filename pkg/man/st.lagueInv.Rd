@@ -1,8 +1,8 @@
-\name{st.lague.inverted}
-\alias{st.lague.inverted}
+\name{st.lagueInv}
+\alias{st.lagueInv}
 \title{Inverted Sainte-Lague}
 \description{Calculates inverted Sainte-Lague.}
-\usage{st.lague.inverted(Z,R)}
+\usage{st.lagueInv(Z,R)}
 \arguments{
   \item{Z}{Population vector}
   \item{R}{Vector for the representatives}

@@ -10,4 +10,4 @@
 \details{The representation score is calculated as the Sainte-Lague method: sum((Z-R)^2/R).}
 \value{Representation score}
 \author{Didier Ruedin}
-\seealso{\code{\link{st.lague.inverted}}}
+\seealso{\code{\link{st.lagueInv}}}

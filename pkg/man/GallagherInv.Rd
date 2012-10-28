@@ -1,8 +1,8 @@
-\name{Gallagher.1}
-\alias{Gallagher.1}
+\name{GallagherInv}
+\alias{GallagherInv}
 \title{1 minus Gallagher index}
 \description{Calculates 1 minus the Gallagher index.}
-\usage{Gallagher.1(Z,R)}
+\usage{GallagherInv(Z,R)}
 \arguments{
   \item{Z}{Population vector}
   \item{R}{Vector for the representatives}
