@@ -8,4 +8,4 @@
 \value{Effective number of parties}
 \author{Didier Ruedin}
 \references{Laakso, M., and R. Taagepera (1979) The Effective Number of Parties: A Measure with Application to West Europe. Comparative Political Studies 12(1): 3-27.}
-\seealso{\code{\link{neff.1}}}
+\seealso{\code{\link{neffProd}}}
