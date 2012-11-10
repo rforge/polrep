@@ -14,5 +14,5 @@ Didier Ruedin
 Maintainer: Didier Ruedin <didier.ruedin@wolfson.oxon.org>
 }
 \keyword{ package }
-\seealso{\code{\link{irs}}, \code{\link{irs.cat}}, \code{\link{Rose}}, \code{\link{relrep}}, \code{\link{binary.representation}}, \code{\link{Farina}}, \code{\link{Gallagher}}, \code{\link{Rae}}, \code{\link{st.lague}}}
+\seealso{\code{\link{irs}}, \code{\link{irs.cat}}, \code{\link{Rose}}, \code{\link{relrep}}, \code{\link{binrep}}, \code{\link{Farina}}, \code{\link{Gallagher}}, \code{\link{Rae}}, \code{\link{StLague}}}
 
