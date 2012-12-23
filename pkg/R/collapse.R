@@ -1,5 +1,4 @@
-collapse <-
-  function(D, pos=FALSE) {
+collapse <- function(D, pos=FALSE) {
     # Calculates a frequency vector F from a population vector D
     # Arguments:  D  = population vector
     #            pos = positions of the categories (necessary if there are categories with 0 observations)

@@ -1,5 +1,4 @@
-expand <-
-function(F) {
+expand <- function(F) {
   # Converts frequency vector in a population vector
   # Argument: F = frequency vector
   # Example: F <- c(10,20,34,5)

@@ -13,3 +13,4 @@ The Rose index is the sum the absolute differences between the proportion of the
 }
 \value{A single score given the population and representatives}
 \author{Didier Ruedin}
+\seealso{\code{\link{LHI}}, \code{\link{Gallagher}}}

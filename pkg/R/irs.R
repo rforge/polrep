@@ -1,5 +1,4 @@
-irs <-
-function(P, R, perspective="individual") {
+irs <- function(P, R, perspective="individual") {
   # Calculates IRS (generic)
   # Arguments: P = vector P for the population, issue position of each citizen
   #            R = vector R for the representatives, issue position of each representative

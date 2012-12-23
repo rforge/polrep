@@ -1,5 +1,4 @@
-irs.cat <-
-function(G, H, perspective="individual") {
+irs.cat <- function(G, H, perspective="individual") {
   # Function to calculate IRS for discrete values (as in the Gnumeric sheet)
   # Arguments: G = frequency vector for the population
   #            H = frequency vector for the representatives
