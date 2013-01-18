@@ -1,8 +1,8 @@
 Package: polrep
 Type: Package
 Title: Calculate political representation scores
-Version: 0.19
-Date: 2013-01-09
+Version: 0.20
+Date: 2013-01-18
 Author: Didier Ruedin
 Maintainer: Didier Ruedin <didier.ruedin@wolfson.oxon.org>
 Depends: agrmt
