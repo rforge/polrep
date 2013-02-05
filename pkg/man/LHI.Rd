@@ -1,6 +1,6 @@
 \name{LHI}
 \alias{LHI}
-\title{Calculates the Rose Index of Proportionality}
+\title{Calculates the Loosemore-Hanby Index}
 \description{Calculates the Loosemore-Hanby Index (LHI) of distortion based on a population vector and a vector for the representatives}
 \usage{LHI(Z,R)}
 \arguments{
@@ -9,7 +9,7 @@
 }
 \details{The order of the groups in he population vector and the vector for the representatives needs to be the same. If there are groups A, B, C in the population, both vectors need to cover their proportion in the same order.
 
-The LHI is the sum the absolute differences between the proportion of the population and representatives in each group. A division by 2 is used to standardize values between 0 and 1. The LHI (1971) is also known as index of disproportionality, introduced earlier by Duncan and Duncan (1955), or as Pedersen index in volatility studies.
+The LHI is the sum the absolute differences between the proportion of the population and representatives in each group. A division by 2 is used to standardize values between 0 and 1. The LHI (1971) is also known as index of disproportionality, introduced earlier by Duncan and Duncan (1955), and is known as the Pedersen index in volatility studies. To use this function in volatility studies, you need to provide two vectors with the share of votes (seats) at two points in time. One vector for each point in time; and the order of parties need to be the same in both vectors.
 }
 \value{A single score given the population and representatives}
 \author{Didier Ruedin}
