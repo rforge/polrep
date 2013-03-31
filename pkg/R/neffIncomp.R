@@ -1,5 +1,5 @@
 neffIncomp <- function (x) {
-  # effetive number of parties for incomplete data
+  # effective number of parties for incomplete data
   # assumes residual category to be the last item!
   P <- sum(x)                       # number of seats
   R <- x[length(x)]                 # last item = residual category (assumed!)
