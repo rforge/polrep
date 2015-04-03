@@ -1,26 +1,33 @@
+<!doctype html>
 <html>
 <head>
-<title>Political Representation in R</title>
-<link rel="stylesheet" href="basic.css" type="text/css" /></head>
+  <meta charset="utf-8">
+  <title>Political Representation in R</title>
+  <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
+  <link rel="stylesheet" href="responsive.css" type="text/css" />
+  <!--[if IE]> <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+
 <body>
-<div id="Header">
-    <a href="index.html" title="Home">Political Representation in R</a>
-  </div>
-    <div id="Content">
+  <header>
+    <nav>
+      <a href="#" id="menu-icon"></a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="irs.html">IRS</a></li>
+        <li><a href="installation.html">Installation</a></li>
+        <li><a href="use.html" class="current">Use</a></li>
+        <li><a href="https://r-forge.r-project.org/projects/polrep/">Development</a></li>
+      </ul>
+    </nav>
+  </header>
+<section>
+<h1>Political Representation in R</h1>
 <p>Individual representation assign the level of representation to individuals.<br><br>
-To calculate individual representation scores, use: irs(Z,R) for continuous data and irs.cat(Z,R) for categorical data. Using collapse() and then irs.cat() is significantly faster than running irs() if you have categorical data.</p>
+To calculate individual representation scores, use: <kbd>irs(Z,R)</kbd> for continuous data and <kbd>irs.cat(Z,R)</kbd> for categorical data. Using <kbd>collapse()</kbd> and then <kbd>irs.cat()</kbd> is significantly faster than running <kbd>irs()</kbd> if you have categorical data.</p>
 <h2 class="top">Going Further</h2>
 <p>For a full description of the concept of individual representation scores, refer to <a href="http://www.tandfonline.com/doi/abs/10.1080/00344893.2012.653248">Ruedin, D. Individual representation: A different approach to political representation. <i>Representation</i> 48, no. 1 (2012): 115-29.</a>
-<br><br>Or the (freely available) peer-reviewed working paper: <a href="https://disc.ceu.hu/sites/default/files/field_attachment/page/node-3320/disc-wp-20-ruedin.pdf">Ruedin, D. 2011. The concept of individual representation: Approaching political representation differently. <i>DISC Working Papers</i>, CEU Budapest 20.</a>
-<br><br>
-<small>Last update 28 October 2012</small></p>
-</div>
-<div id="Menu">
-<a href="index.html" title="Home">Home</a><br>
-<a href="irs.html" title="IRS">IRS</a><br>
-<a href="installation.html" title="Installation">Installation</a><br>
-<a href="use.html" title="Use">Use</a><br>
-<a href="https://r-forge.r-project.org/projects/polrep/" title="Development">Development</a><br><br>
-<a href="http://r-forge.r-project.org"><img src="logo.png" width="75px" border="0" alt="R-Forge Logo" /></a>
-</div>
+<br><br>Or the (freely available) peer-reviewed working paper: <a href="https://disc.ceu.hu/sites/default/files/field_attachment/page/node-3320/disc-wp-20-ruedin.pdf">Ruedin, D. 2011. The concept of individual representation: Approaching political representation differently. <i>DISC Working Papers</i>, CEU Budapest 20.</a></p>
+<p class="small">Last update 3 April 2015</p>
+</section>
 </body></html>
