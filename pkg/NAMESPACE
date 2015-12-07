@@ -1,2 +1,4 @@
 exportPattern("^[[:alpha:]]+")
+importFrom("graphics", "axis", "plot", "lines", "polygon", "text", "split.screen", "screen", "close.screen", "par", "abline")
+importFrom("stats", "na.omit", "sd", "ecdf", "median")
 import(agrmt)
