@@ -1,0 +1,155 @@
+polrep 0.31.5
+---------------
+
+- include the NEWS file in the package
+
+polrep 0.31.4
+---------------
+
+- fixing non-ASCII characters in comments
+- updating NAMESPACE
+
+polrep 0.28
+---------------
+
+- added CDF congruence functions congruence() and congruencePlot()
+
+polrep 0.27
+---------------
+
+- additional measures: aacc(), acc(), accm(), amcc(), rcc()
+
+polrep 0.26
+---------------
+
+- IRS plot draws thicker lines
+- fixed cross-references in help files
+
+polrep 0.25
+---------------
+
+- declare imports in DESCRIPTION
+
+polrep 0.24
+---------------
+
+- added IRS plot
+
+polrep 0.23
+---------------
+
+- added measures of two-partiness
+
+polrep 0.22
+---------------
+
+- added Pedersen index
+
+polrep 0.21
+---------------
+
+- new functions: Cox Shugart, Grofman, Lijphart, d'Hondt, and inverted variants
+
+polrep 0.20
+---------------
+
+- sort vectors
+
+polrep 0.18
+---------------
+
+- Neff for incomplete data
+- requires agrmt package
+
+polrep 0.17
+---------------
+
+- now uses agrmt package for collapse() and expand() functions
+
+polrep 0.16
+---------------
+
+- added LHI
+- fixed remaining naming consistencies in several functions (S3)
+
+polrep 0.15
+---------------
+
+- added modified version of Gallagher index
+
+polrep 0.14
+---------------
+
+- naming consistencies in several functions (S3)
+- naming functions more consistently
+
+polrep 0.12
+---------------
+
+- updated package DESCRIPTION
+
+polrep 0.11
+---------------
+
+- small fix in collapse() function
+
+polrep 0.10
+---------------
+
+- renaming neff.1() into neffProd()
+
+polrep 0.9
+---------------
+
+- naming consistency for functions
+
+polrep 0.8
+---------------
+
+- tidying code
+
+polrep 0.7
+---------------
+
+- can specify k in relrep()
+
+polrep 0.6
+---------------
+
+- fixes in several functions: H, Rae, IRS, IRS cat
+- adding Farina()
+- adding Neff
+
+polrep 0.5
+---------------
+
+- fixes in Rose(), cosScore()
+- clarified help of Gallagher
+
+polrep 0.4
+---------------
+
+- updated vignette
+- fixed frequencyvector()
+
+polrep 0.3
+---------------
+
+- updating package DESCRIPTION
+- fixed order in frequencyvector()
+- renaming frequency.vector into frequencyvector()
+- frequency vector function now checks for empty vectors
+- fixes to collapse() and expand()
+
+polrep 0.2
+---------------
+
+- updating package DESCRIPTION
+- additional functions: Gallagher, H, Q, R, Rae, binary, Zc, and many more
+- added collapse() and expand() helper functions
+
+polrep 0.1
+---------------
+
+- initial release
+- code for IRS and IRS cat
