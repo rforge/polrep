@@ -1,11 +1,11 @@
 Package: polrep
 Type: Package
 Title: Calculate Political Representation Scores
-Version: 0.31.5
-Date: 2016-01-06
+Version: 0.31.6
+Date: 2016-11-22
 Author: Didier Ruedin
 Maintainer: Didier Ruedin <didier.ruedin@wolfson.oxon.org>
 Imports: agrmt
 Description: Calculate political representation scores using a large number of (potential) measures of political representation, including individual representation scores (IRS), the Gallagher index of least squares, the Rose index, relative representation scores, and related measures.
 URL: http://polrep.r-forge.r-project.org
-License: GPL-3
+License: MIT + file LICENSE
